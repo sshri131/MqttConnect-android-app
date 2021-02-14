@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConnect"
+        android:text="Connect"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter message to be published"
+            android:id="@+id/etPublishedData"
+            android:textSize="35sp"
+            android:layout_weight="60"/>
+
+        <Button
+            android:id="@+id/btnPublish"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:text="Publish"
+            android:textSize="15sp" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
